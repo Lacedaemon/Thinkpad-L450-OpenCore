@@ -10,22 +10,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-AC.aml</string>
-				<key>Path</key>
-				<string>SSDT-AC.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-ALS0.aml</string>
-				<key>Path</key>
-				<string>SSDT-ALS0.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-BATT.aml</string>
 				<key>Path</key>
 				<string>SSDT-BATT.aml</string>
@@ -34,9 +18,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-HPET.aml</string>
+				<string>SSDT-DEVICES.aml</string>
 				<key>Path</key>
-				<string>SSDT-HPET.aml</string>
+				<string>SSDT-DEVICES.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -53,14 +37,6 @@
 				<string>SSDT-PNLF.aml</string>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
-				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -242,7 +218,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WExPRA==</data>
+				<data>WEwwRA==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
