@@ -1,0 +1,15 @@
+Rename \_WAK to \_XAK
+Find: 5c5f57414b
+Replace: 5c5f58414b
+
+Rename _L0D to _X0D
+Find: 5f4c3044
+Replace: 5f583044
+
+Rename GBIF to XBIF
+Find: 4742494603
+Replace: 5842494603
+
+Rename GBST to XBST
+Find: 4742535404
+Replace: 5842535404
