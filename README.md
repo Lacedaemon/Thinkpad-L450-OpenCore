@@ -3,7 +3,6 @@
 ```
 OS: macOS Catalina
 Host: Hackintosh (SMBIOS: MacBookPro12,1)
-Resolution: 1366x768
 CPU: Intel i5-5300U (4) @ 2.30GHz
 GPU: Intel HD Graphics 5500
 Memory: 8192MiB
@@ -53,7 +52,8 @@ $ ./macbuild.tool
 3. Download and extract the latest compatible `ApfsDriverLoader.efi` from [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg/releases) to `[Repo]/EFI/OC/Drivers`.
 4. Download and copy the latest compatible `HfsPlus.efi` from [OcBinaryData](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi) to `[Repo]/EFI/OC/Drivers`.
 5. Follow the README's in the `[Repo]/EFI/OC/ACPI` and `[Repo]/EFI/OC/Kexts` folders.
-6. Copy the finished `[Repo]/EFI` folder to a FAT32 partition (e.g. a USB drive or EFI System Partition), then boot from it.
+6. Generate new SMBIOS data with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).  Refer to the vanilla guide linked below for the full procedure.
+7. Copy the finished `[Repo]/EFI` folder to a FAT32 partition (e.g. a USB drive or EFI System Partition), then boot from it.
 
 ## Credits
 
@@ -61,4 +61,16 @@ $ ./macbuild.tool
 * acidanthera for OpenCorePkg et all
 * khronokernel, for providing [the vanilla guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) which this config.plist is based on
 * RehabMan, for his guides on [patching ACPI for battery status](https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/) and [converting those patches for hotpatching](https://www.tonymacx86.com/threads/guide-using-clover-to-hotpatch-acpi.200137/)
-* [CorpNewt](https://github.com/CorpNewt), for Lilu-and-Friends, ProperTree, and SSDTTime
+* [CorpNewt](https://github.com/CorpNewt), for Lilu-and-Friends, ProperTree, GenSMBIOS, and SSDTTime
+
+## Contact
+
+For general questions regarding this build, I can be reached at:
+
+* Discord: `@HackinDoge#9460`
+* Reddit: [/u/HackinDoge](https://reddit.com/u/HackinDoge)
+* OSx86.net: [HackinDoge](https://www.osx86.net/profile/345012-hackindoge/)
+
+Please ensure that you've read through all the linked materials before reaching out.
+
+If there is a critical misconfiguration, error, or other issue with any of the files in this build, or if there is a file(s) that need to be added, please open an Issue here on GitHub so I can get that resolved.
