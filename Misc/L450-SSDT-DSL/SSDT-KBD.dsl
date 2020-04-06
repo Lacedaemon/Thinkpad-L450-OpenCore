@@ -46,7 +46,7 @@ DefinitionBlock("", "SSDT", 2, "L450", "_KBD", 0)
                 //"ForcePassThrough", ">y",
                 //"SkipPassThrough", ">y",
                 "PalmNoAction When Typing", ">y",
-                "ScrollResolution", 800,
+                "ScrollResolution", 200,
                 "SmoothInput", ">y",
                 "UnsmoothInput", ">y",
                 "Thinkpad", ">y",
@@ -55,8 +55,8 @@ DefinitionBlock("", "SSDT", 2, "L450", "_KBD", 0)
                 "MaxTapTime", 100000000,
                 "MouseMultiplierX", 2,
                 "MouseMultiplierY", 2,
-                "MouseScrollMultiplierX", 20,
-                "MouseScrollMultiplierY", 20,
+                "MouseScrollMultiplierX", 2,
+                "MouseScrollMultiplierY", 2,
                 //"TrackpointScrollYMultiplier", 1, //Change this value to 0xFFFF in order to inverse the vertical scroll direction of the Trackpoint when holding the middle mouse button.
                 //"TrackpointScrollXMultiplier", 1, //Change this value to 0xFFFF in order to inverse the horizontal scroll direction of the Trackpoint when holding the middle mouse button.
             },
