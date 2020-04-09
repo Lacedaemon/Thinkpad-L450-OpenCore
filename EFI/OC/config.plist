@@ -204,7 +204,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>_L0D -&gt; XL0D</string>
+				<string>_L0D -&gt; XLOD</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -218,7 +218,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WEwwRA==</data>
+				<data>WExPRA==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -464,7 +464,7 @@
 			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
-			<key>ProtectCsmRegion</key>
+			<key>ProtectMemoryRegions</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
 			<false/>
@@ -1069,7 +1069,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>1</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
